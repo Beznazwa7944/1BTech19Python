@@ -14,9 +14,9 @@
 
 #Zad 4
 # for i in range (100, 1000, 1):
-#   if i%5 == 0 and i%6 == 0:
+#   if i%5 == 0 or i%6 == 0:
 #     print(i, "Nie podzielne przez 11")
-#   if i%5 == 0 and i%6 == 0 and i%11 == 0:
+#   if i%5 == 0 or i%6 == 0 or i%11 == 0:
 #     print(i, "Podzielne przez 11")
 
 #Zad 5
@@ -28,6 +28,20 @@
 # print("Suma liczb to ", a)
 
 #Zad 6
-k = int(input("Podaj liczbę k: "))
-for i in range(2, k):
-  if 
+# k = int(input("Podaj liczbę k: "))
+# x = 0
+# for i in range(0,2*k,2):
+#   x += i
+# print("Wynik to:",x)
+
+#Zad 7
+# m = int(input("Podaj liczbę m: "))
+# mcount = 0
+# x = 0
+# for i in range(10 ,100):
+#   if i%2 != 0 and mcount < m and i < 100:
+#     mcount = mcount+1
+#     x += i
+# print(x)
+
+#Zad8
