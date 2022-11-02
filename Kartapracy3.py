@@ -1,2 +1,4 @@
-for i in range(0, 100, 1):
-    print((i ** 3)+3, end = " ")
+n = int(input())
+a, b = 0, 1
+for i in range(n):
+  
