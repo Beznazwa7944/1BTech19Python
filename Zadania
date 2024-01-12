@@ -1,0 +1,34 @@
+#użyj owoce.txt
+with open("Zadania_na_lekcji/PLIKITEKSTOWE/Tekst.txt", "r") as plik:
+  dane = plik.read().split()
+  print(dane)
+  print("\n\n")
+#1. Policz ile znaków ma każdy owoc w nowej tabeli
+  for _ in dane:
+    print(len(_), end=" ")
+  print("\n\n")
+#2. Utwórz nowy wyraz, który powstał przez złączenie każdego pierwszego znaku każdego elementu tablicy np. dla ["ufo", "fa"] wyraz to "uf"
+  for _ in dane:
+    print(_[0], end="")
+  print("\n\n")
+#3. Wypisz na ekranie, każdy z owoców pisany od tyłu np. dla kiwi -> iwik 
+  for _ in dane:
+    print(_[::-1], end = " ")
+  print("\n\n")
+#4. Utwórz zmienną max_dl i owocek, która będzie przechowywać najdłuższy znaleziony element - nie korzystaj z funkcji wbudowanych - napisz algorytm szukający najdłuższego ciągu znaków
+  maxdl = 0
+  owocek = ""
+  for _ in dane:
+    if len(_) > maxdl:
+      maxdl = len(_)
+      owocek = _
+  print(owocek)
+  print("\n\n")
+#3. Wypisz na ekranie, każdy z owoców pisany dużymi literami np. dla kiwi -> KIWI 
+  for _ in dane:
+    print(_.upper(), end=" ")
+  print("\n\n")
+#5. Otwórz plik w trybie write i zapisz w nim nazwa_owocu dl_wyrazu np. ziemniak 8 - użyj wcześniej wczytanej tablicy 
+with open("Zadania_na_lekcji/PLIKITEKSTOWE/Tekst.txt", "r") as plik:
+  for _ in dane:
+    write
